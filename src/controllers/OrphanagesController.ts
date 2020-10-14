@@ -25,6 +25,9 @@ const OrphanagesController = {
       opening_hours,
       open_on_weekends,
     } = request.body;
+    const requestImages = request.files as Express.Multer.File[];
+    const images = requestImages.map(image => ({ path: image.filename }));
+
     const orphanagesRepository = getRepository(Orphanage);
     const orphanage = orphanagesRepository.create({
       name,
@@ -34,6 +37,7 @@ const OrphanagesController = {
       instructions,
       opening_hours,
       open_on_weekends,
+      images,
     });
     await orphanagesRepository.save(orphanage);
     return response.status(201).json(orphanage);
