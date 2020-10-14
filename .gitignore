@@ -10,3 +10,9 @@
 
 # misc
 .env
+
+.vscode/
+temp/
+
+uploads/*
+!uploads/.gitkeep
