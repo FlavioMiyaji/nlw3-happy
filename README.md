@@ -38,5 +38,5 @@ Runs the migrations to drop the tables one by one.
 * [x] Lidando com exceções (ErrorRequestHandler)
 * [x] Validação de dados (yup)
 ## 3º [Dia: Finalizando front-end (A escolha da stack)](https://github.com/FlavioMiyaji/nlw3-happy-web)
-## 4º (Até 2 anos em 2 meses)
-## 5º (A minha extra)
+## 4º [Dia: Estruturando app modile(Até 2 anos em 2 meses)](https://github.com/FlavioMiyaji/nlw3-happy-mobile)
+## 5º [Dia: (A minha extra)](https://github.com/FlavioMiyaji/nlw3-happy-mobile)
